@@ -1,0 +1,134 @@
+.me{
+    display: flex;
+    background-image: url(me.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+.text_me{
+    margin-top: 7rem;
+}
+body{
+    background-color: rgb(#f1f1fb);
+}
+.performance_01{
+    width: 100%;
+    height: 70rem;
+}
+.img_pro01{
+    width: 50%;
+    height: 23rem;
+    background-image: url(project01.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+.img_pro01_01{
+    width: 33%;
+    height: 20rem;
+    background-image: url(project01_01.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.5rem;
+}
+.img_pro01_02{
+    width: 33%;
+    height: 20rem;
+    background-image: url(project01_02.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.5rem;
+}
+.img_pro01_03{
+    width: 33%;
+    height: 20rem;
+    background-image: url(project01_03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.performance_02{
+    width: 100%;
+    height: 70rem;
+}
+.img_pro02{
+    width: 50%;
+    height: 23rem;
+    background-image: url(project02.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+.img_pro02_01{
+    width: 33%;
+    height: 17rem;
+    background-image: url(project02_01.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.5rem;
+}
+.img_pro02_02{
+    width: 33%;
+    height: 17rem;
+    background-image: url(project02_02.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.5rem;
+}
+.img_pro02_03{
+    width: 33%;
+    height: 17rem;
+    background-image: url(project02_03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cert_01{
+    width: 50%;
+    height: 17rem;
+    background-image: url(certificate_01_01.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.5rem;
+
+}
+.cert_02{
+    width: 50%;
+    height: 17rem;
+    background-image: url(certificate_01_02.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.5rem;
+
+}
+.cert_03{
+    width: 50%;
+    height: 17rem;
+    background-image: url(certificate_02_01.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.5rem;
+
+}
+.cert_04{
+    width: 50%;
+    height: 17rem;
+    background-image: url(certificate_02_02.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-right: 0.5rem;
+
+}
+
+.gmail{
+    height: 5rem;
+    width: 5rem;
+    background-image: url(gmail.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: -1.5rem;
+}
