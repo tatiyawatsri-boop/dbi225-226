@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ร้านขายเครื่องใช้ไฟฟ้า</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="week3">
+    <div class="napbar">
+        <div class="napbar_l">หน้าแรก</div>
+        <div class="napbar_r">
+            <div>บัญชี</div>
+            <div>สินค้า</div>
+            <div>รถเข็น</div>
+            <div>ชำระเงิน</div>
+            <a href="week3.html"><div style="font-weight: bold;">แจ้งปัญหา</div></a>
+        </div>
+    </div>
+
+        <div class="mainform">
+        <div class="text_main_form">
+            <span class="text_main">แจ้งปัญหา</span>
+        </div>
+
+        <div>
+        <form action="https://formsubmit.co/mmopddd@gmail.com" method="POST">
+        <div class="box_name">
+            <br>
+        <div class="text_name">
+        <label for="fname">ชื่อจริง:</label><input type="text" name="firstname" required>
+        <br>
+        <label for="lname">นามสกุล:</label><input type="text" name="lastname" required>
+        <br>
+        <label for="tel">เบอร์โทร:</label><input type="tel" pattern="[0-9]+" inputmode="numeric" name="phone">
+        <br>
+        <label for="email">อีเมล:</label><input type="email" name="email" required>
+        <br>            
+        </div>
+
+        </div>
+             <div>
+            <table>
+                <tr>
+                    <th>
+                        เลือก
+                    </th>
+                    <th>
+                        ประเภทสินค้า
+                    </th>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="product[]" value="หม้ออบลมร้อน"></td>                       
+                    <td>
+                        <img src="" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="product[]" value="ตาแม่เหล็กไฟฟ้า"></td>                       
+                    <td>
+                        <img src="" alt="">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" name="product[]" value="กะทะปิ้งย่าง"></td>                       
+                    <td>
+                        <img src="" alt="">
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="text_area">
+            <label for="textarea">แจ้งรายละเอียด:</label>
+            <textarea id="textarea" name="textarea"></textarea>
+        </div>
+        <br>
+        <div class="button_form">
+            <button type="submit">ส่ง</button>
+        </div>
+        </form>
+        </div>
+
+    </div>
+        <div class="footer"></div>
+</body>
+</html>
