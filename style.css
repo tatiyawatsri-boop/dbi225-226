@@ -132,3 +132,149 @@ body{
     background-size: cover;
     margin-top: -1.5rem;
 }
+
+#week3{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+} 
+
+
+
+
+.napbar{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem ;
+    height: 3rem;
+    background-color: rgb(81, 160, 213);
+    text-align: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px rgb(190, 190, 190);
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+}
+.napbar_l{
+    margin-left: 0.5rem;
+}
+.napbar_r{
+    flex-direction: row;
+    display: flex;
+    gap: 1rem;
+    margin-right: 1.8rem;
+}
+
+
+
+
+.text_main_form{
+    text-align: center;
+    margin-top: 5rem;
+}
+.text_main{
+    font-size: 2rem;
+    font-weight: bold;
+}
+table{
+    width: 40%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 1rem;
+    height: 50%;
+    border-radius: 10px;
+    box-shadow: 1px 4px 3px 3px  rgb(190, 190, 190);
+    padding: 4px;
+
+}
+th,td{
+    border: 2px;
+    text-align: center;
+    border-radius: 5px;
+}
+th{
+    height: 5rem;
+    background-color: rgb(71, 181, 255);
+}
+td{
+    height: 18rem;
+} 
+
+
+
+
+.text_name{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 20rem;
+}
+.button_form{
+    margin-top: 2rem;
+    margin-left: 67.4%;
+}
+.text_area {
+    margin-top: 2rem;
+    margin-left: 30%;
+    display: flex;
+}
+textarea{
+    width: 45%;
+    height: 5rem;
+    box-shadow: 1px 1px 3px 3px rgb(190, 190, 190);
+    border-radius: 10px;
+
+
+} 
+
+
+
+
+.footer{
+    margin-top: 2rem;
+    width: 95%;
+    height: 3rem;
+    background-color: rgb(81, 160, 213);
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(190, 190, 190);
+}
+
+
+
+.mainform{
+    margin-top: 10rem;
+    background-color: rgb(199, 213, 239);
+    height: 105rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px rgb(190, 190, 190);
+
+} 
+
+
+
+
+.box_name{
+    background-color: #fafafa;
+    height: 20rem;
+    width: 25rem;
+    display: flex;
+    margin: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 3px rgb(190, 190, 190);
+} 
+
+button{
+    box-shadow: 1px 1px 1px 1px rgb(190, 190, 190);
+
+}
