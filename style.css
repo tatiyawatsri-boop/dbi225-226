@@ -498,12 +498,6 @@ button{
   .quantity{
     margin: auto;
     display: flex;
-    width: 6rem;
-    height: 4rem;
-  }
-  .price{
-    width: 0.2rem;
-    height: 1.8rem;
   }
   }
 
@@ -525,4 +519,5 @@ button{
     align-items: center;
     justify-content: center;
   }
+
 
