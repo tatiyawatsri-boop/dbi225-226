@@ -1,36 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    width: 300px;
-}
-
-.card-header {
-    background-color: #f0f0f0;
-    padding: 5px;
-    font-weight: bold;
-}
-
-.card-body {
-    padding: 10px;
-}
-    </style>
+  <meta charset="UTF-8">
+  <title>My Tailwind Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="card">
-    <div class="card-header">หัวข้อการ์ด</div>
-    <div class="card-body">
-        <p>เนื้อหาของการ์ด</p>
+  <header class="flex flex-col font-bold sticky top-0 z-50 bg-white h-28">
+    <div class="flex justify-between w-11/12 m-auto">
+      <div class="flex gap-2 items-center">
+      <div class="w-24 h-24"  ><img src="webtoon.png" alt=""></div>
+      <div>ออริจินัล</div>
+      <div>หมวดหมู่</div>
+      <div>อันดับ</div>
+      <div>แคนวาส</div>
+    </div>
+    <div class="flex gap-2 items-center">
+      <div>WEBTOON SHOP</div>
+      <div>Creators 101</div>
+      <div class="flex justify-center items-center bg-black text-white w-20 h-10 rounded-3xl">เผยแพร่</div>
+      <div class="bg-gray-100 hover:bg-gray-200 text-black w-28 h-10 flex justify-center items-center rounded-3xl ">เข้าสู่ระบบ</div>
+      <div class="flex justify-center items-center bg-slate-100 hover:bg-gray-200 w-11 h-11 rounded-full">🔍
+      </div>
+    </div>
+  </div>
+    <hr>
+  </header>
+
+  <div class="w-9/12 items-center m-auto flex  py-4">
+    <div class="flex justify-between w-full">
+    <div class="flex flex-col ">
+      <div class="font-bold text-2xl">เรื่องมาแรง & ​​ยอดนิยม</div>
+      <div class="flex flex-row gap-4 py-3">
+        <div class="bg-black w-20 h-10 flex justify-center items-center font-bold text-white rounded-full">มาแรง</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-20 h-10 flex justify-center items-center font-bold text-black rounded-full">ยอดนิยม</div>      
+      </div>
+    </div>
+    <div class="text-gray-500 text-sm">
+      ดูทั้งหมด
+    </div>
+  </div>
+    </div>
+
+
+  <div class="w-9/12 h-80 flex m-auto gap-2">
+    <div class="bg-white w-60 h-80 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt_11.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm font-bold"><span>เมโลดี้รักบวนสุดท้าย</span></div>
+      <div class="text-xs text-gray-400"><span>โรแมนซ์</span></div>
+    </div>
+    <div class="bg-white w-60 h-80 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt12.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm font-bold"><span>รักครั้งใหม่แบบไม่โรแมนติก</span></div>
+      <div class="text-xs text-gray-400"><span>โรแมนซ์</span></div>
+    </div>
+    <div class="bg-white w-60 h-80 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt_13.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm font-bold"><span>หัวหน้าด้อมคนนี้ดีกรีเจ้าหญิง</span></div>
+      <div class="text-xs text-gray-400"><span>โรแมนซ์แฟนตาซี</span></div>
+    </div>
+    <div class="bg-white w-60 h-80 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt_14.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm font-bold"><span>รักไม่ชัวร์ นัวไว้ก่อน</span></div>
+      <div class="text-xs text-gray-400"><span>โรแมนซ์</span></div>
+    </div>
+    <div class="bg-white w-60 h-80 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt15.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm font-bold"><span>อยู่ๆ ฉักก็กลายเป็นเจ้าหญิง</span></div>
+      <div class="text-xs text-gray-400"><span>โรแมนซ์แฟนตาซี</span></div>
+    </div>
+  </div>
+
+
+<div class="flex flex-col items-center m-auto w-9/12">  
+  <div class="flex justify-between w-full">
+    <div class="flex flex-col">
+      <div class="font-bold text-2xl">เรื่องฮิตตามหมวดหมู่</div>
+      <div class="flex gap-1 py-3">
+        <div class="bg-black w-20 h-10 flex justify-center items-center font-bold text-white rounded-full text-sm">โรแมนซ์</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-36 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">โรแมนซ์แฟนตาซี</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-20 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">ดราม่า</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-20 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">แอกชัน</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-24 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">แฟนตาซี</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-24 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">LGBQ+/Y</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-16 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">ตลก</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-24 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">ระทึกขวัญ</div>
+      </div>
+    </div>
+          <div class="text-gray-500 text-sm">
+      ดูทั้งหมด
+    </div>
+  </div>
+
+
+<div class="flex w-full h-72 gap-2">
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt21.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm"><span>เพื่อนกันมันส์เกิน</span></div>
+      <div class="text-xs text-gray-400"><span>เข้าชม 30M ครั้ง</span></div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt22.png" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm"><span>บุปผารุ่มราคะ</span></div>
+      <div class="text-xs text-gray-400"><span>เข้าชม 36M ครั้ง</span></div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt23.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm"><span>ลูกสาวสำเนาถูกต้อง</span></div>
+      <div class="text-xs text-gray-400"><span>เข้าชม 9M ครั้ง</span></div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt24.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm"><span>อันตรายลูกชายเพื่อนแม่</span></div>
+      <div class="text-xs text-gray-400"><span>เข้าชม 479K ครั้ง</span></div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt25.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm"><span>สวยเองนักเลงพอ</span></div>
+      <div class="text-xs text-gray-400"><span>เข้าชม 5M ครั้ง</span></div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt26.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm"><span>ความรักของอิซอบ</span></div>
+      <div class="text-xs text-gray-400"><span>เข้าชม 25M ครั้ง</span></div>
     </div>
 </div>
+</div>
+
+<div class="bg-gray-100 flex justify-center items-center w-full h-24">
+  <div class="text-center">ฝึกใช้ tailwind By นายปัญญา เครื่องหอม</div>
+</div>
+
+ <div class="w-9/12 items-center m-auto flex my-4 py-4">
+      <div class="font-bold text-2xl">ออริจินัลมาใหม่</div>
+    </div>
+
+
+  <div class="w-9/12 h-64 flex m-auto gap-2">
+    <div class="bg-white w-60 h-64 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt31.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+    </div>
+    <div class="bg-white w-60 h-64 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt32.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+    </div>
+    <div class="bg-white w-60 h-64 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt33.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+    </div>
+    <div class="bg-white w-60 h-64 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt34.jpg" class="transition-transform duration-300 hover:scale-110 "></div>
+    </div>
+    <div class="bg-white w-60 h-64 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt35.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+    </div>
+  </div>
+
+<div class="flex flex-col items-center m-auto w-9/12 py-7">  
+  <div class="flex justify-between w-full">
+    <div class="flex flex-col">
+      <div class="font-bold text-2xl">ประจำวัน</div>
+      <div class="flex gap-1 py-3">
+        <div class="bg-gray-100 hover:bg-gray-200 w-16 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">จันทร์</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-16 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">อังคาร</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-12 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">พุธ</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-20 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">พฤหัสบดี</div>
+        <div class="bg-black hover:bg-gray-200 w-12 h-10 flex justify-center items-center font-bold text-white rounded-full text-sm">ศุกร์</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-14 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">เสาร์</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-16 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">อาทิตย์</div>
+        <div class="bg-gray-100 hover:bg-gray-200 w-16 h-10 flex justify-center items-center font-bold text-black rounded-full text-sm">จบแล้ว</div>
+      </div>
+    </div>
+          <div class="text-gray-500 text-sm">
+      ดูทั้งหมด
+    </div>
+  </div>
+
+
+<div class="flex w-full h-64 gap-2">
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt41.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>แอกชั่น</span></div>
+      <div class="text-sm"><span>สนามเด็กล่า</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>771,025</span></div>        
+      </div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt42.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>โรแมนซ์แฟนตาซี</span></div>
+      <div class="text-sm"><span>องค์ชายผู้อื้อฉาว</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>703,035</span></div>        
+      </div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt43.png" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>แอกชัน</span></div>
+      <div class="text-sm"><span>LOOKISM</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>13.9M</span></div>        
+      </div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt44.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>แอกชัน</span></div>
+      <div class="text-sm"><span>พี่ชายสายบอดี้การ์ด</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>3.6M</span></div>        
+      </div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30 "><img src="wt45.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>ดราม่า</span></div>
+      <div class="text-sm"><span>ฉันเนี้ยนะ นักแสดงขั้นเทพ</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>159,461</span></div>        
+      </div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt46.png" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>โรแมนซ์แฟนตาซี</span></div>
+      <div class="text-sm"><span>[ฉบับสมบูรณ์]อธิษฐาน..</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>7,941</span></div>        
+      </div>
+    </div>
+</div>
+</div>
+
+<div class="flex flex-col items-center m-auto w-9/12">  
+<div class="flex w-full h-64 gap-2">
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt51.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>โรแมนซ์</span></div>
+      <div class="text-sm"><span>ปฏิบัติการรักวุ่นหัวใจ</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>1.6M</span></div>        
+      </div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt52.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>โรแมนซ์</span></div>
+      <div class="text-sm"><span>ระบบแทรกแซงรัก</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>6,142</span></div>        
+      </div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt53.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>LGBTQ+ / Y</span></div>
+      <div class="text-sm"><span>Nerd Project โปรเจกต์..</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>56,876</span></div>        
+      </div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt54.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>ดราม่า</span></div>
+      <div class="text-sm"><span>หมออังกฤษหัวใจเกาหลี</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>127,265</span></div>        
+      </div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30 "><img src="wt55.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>ระทึกขวัญ</span></div>
+      <div class="text-sm"><span>วิชาเอาตัวรอดคาบที่ 44</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>75,007</span></div>        
+      </div>
+    </div>
+    <div class="bg-white w-52 h-72 flex flex-col">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt56.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="py-2">
+      <div class="text-xs text-gray-400"><span>โรแมนซ์แฟนตาซี</span></div>
+      <div class="text-sm"><span>แกรนด์ดยุกแห่งแดนเหนือ</span></div>
+      <div class="text-xs font-medium text-green-600"><span><span class="text-green-400 px-1">❤︎</span>168,134</span></div>        
+      </div>
+    </div>
+</div>
+</div>
+
+ <div class="w-9/12 items-center m-auto flex my-4 py-4">
+      <div class="font-bold text-2xl">เรื่องอื่น ๆ จากครีเอเตอร์อิสระ</div>
+    </div>
+
+
+  <div class="w-9/12 h-64 flex m-auto gap-2">
+    <div class="bg-white w-60 flex flex-col gap-2">
+      <div class="overflow-hidden border rounded-md border-gray-300"><img src="tw61.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm font-medium"><span>บอดี้การ์ดคนนี้แหละ My friend!</span></div>
+      <div class="text-xs text-gray-400"><span>ตลก</span></div>
+    </div>
+    <div class="bg-white w-60 flex flex-col gap-2">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt67.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm font-medium"><span>ECHO OF ETERNITY</span></div>
+      <div class="text-xs text-gray-400"><span>LGBQ+/ Y</span></div>
+    </div>
+    <div class="bg-white w-60  flex flex-col gap-2">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt68.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm font-medium"><span>ทฤษฎีว่าด้วยแรงดึงดูดของสิ่งเล็กๆ</span></div>
+      <div class="text-xs text-gray-400"><span>อบอุ่นหัวใจ</span></div>
+    </div>
+    <div class="bg-white w-60  flex flex-col gap-2">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt62.jpg" class="transition-transform duration-300 hover:scale-110 "></div>
+      <div class="text-sm font-medium"><span>ผมโดนแม่มดหลอกให้เช่าบ้านประหลาด</span></div>
+      <div class="text-xs text-gray-400"><span>ตลก</span></div>
+    </div>
+    <div class="bg-white w-60  flex flex-col gap-2">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt65.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm font-medium"><span>Lv.ตันแล้วจะหาคู่ได้มั้ยนะ</span></div>
+      <div class="text-xs text-gray-400"><span>โรแมนซ์</span></div> 
+    </div>
+    <div class="bg-white w-60 flex flex-col gap-2">
+      <div class="overflow-hidden border rounded-md border-gray-30"><img src="wt64.jpg" class="transition-transform duration-300 hover:scale-110"></div>
+      <div class="text-sm font-medium"><span>เพื่อนตัวร้ายของท่านพ่อ ขอฉันเถอะนะคะ!</span></div>
+      <div class="text-xs text-gray-400"><span>ตลก</span></div>
+    </div>
+  </div>
+  <hr>
+  <div class="w-full px-14 flex justify-between m-auto">
+    <div class="text-sm py-4">ฝึกใช้ tailwind by นายปัญญา เครื่องหอม</div>
+    <div class="text-sm flex mr-0 m-auto text-gray-200">2/6/2026</div>
+  </div>
+  <hr>
+
+  <div class="w-full h-40 flex items-center justify-center  ">
+    <div class="flex flex-row gap-3">
+      <div class="w-24 h-14"><img src="qr1.png"></div>
+      <div class="flex flex-col py-0.5 gap-2 ">
+        <div class="text-lg font-normal">ดาวน์โหลดแอป WEBTOON เลย</div>
+        <div class="flex flex-row gap-3">
+          <div class="bg-black w-36 h-10 flex flex-row items-center justify-center rounded-md gap-1">
+          <div class="w-8 h-8"><img src="GooglePlay.png"></div>
+          <div class="px-1">
+            <div class="text-white leading-none text-[10px]">ดาวน์โหลดที่</div>
+            <div class="text-white leading-none font-normal text-[15px]">Google Play</div>
+          </div>
+        </div>
+        <div class="bg-black w-32 h-10 flex flex-row items-center px-2 rounded-md gap-1">
+          <div class="w-7 h-7"><img src="AppStore.png"></div>
+          <div class="px-1">
+            <div class="text-white leading-none text-[10px]">ดาวน์โหลดที่</div>
+            <div class="text-white leading-none font-normal text-[15px]">App Store</div>
+          </div>
+        </div>
+        </div>
+
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="w-full h-96 bg-gray-100">
+    <div class="h-56">
+        <div class="flex flex-col">
+          <div class="flex flex-row items-center justify-center gap-3 pt-16">
+            <div class=""><img src="f1.png" class="rounded-full object-cover w-8 h-8"></div>
+            <div class=""><img src="ig1.png" class="rounded-full object-cover w-8 h-8"></div>
+            <div class=""><img src="line1.png" class="rounded-full object-cover w-8 h-8"></div>
+            <div class=""><img src="youtube1.png" class="rounded-full object-cover w-8 h-8"></div>
+          </div>
+          <div class="flex flex-row items-center justify-center gap-3 pt-8">
+            <div class="text-sm">ฟีดแบ็ค</div>
+            <div class="text-[10px] text-gray-400">|</div>
+            <div class="text-sm">ช่วยเหลือ</div>
+            <div class="text-[10px] text-gray-400">|</div>
+            <div class="text-sm">ข้อตกลง</div>
+            <div class="text-[10px] text-gray-400">|</div>
+            <div class="text-sm">ความเป็นส่วนตัว</div>
+            <div class="text-[10px] text-gray-400">|</div>
+            <div class="text-sm">ลงโฆษณากับเรา</div>
+            <div class="bg-white w-28 h-8 flex items-center justify-center text-sm rounded-md border border-gray-200">ภาษาไทย</div>
+          </div>
+        </div>
+    </div>
+
+    <div class="flex flex-col items-center justify-center">
+      <div><img src="webtoon2.png" class="w-28 h-15"></div>
+      <div>
+      </div>
+      <div class="text-gray-500 text-[11px] font-medium">ⓒ NAVER WEBTOON Ltd.</div>
+    </div>
+  </div>
+
 </body>
 </html>
